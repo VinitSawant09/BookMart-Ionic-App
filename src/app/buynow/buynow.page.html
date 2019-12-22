@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        BookMart
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <ion-card >
+    
+    <ion-card-header >
+      <ion-card-subtitle>{{book.author}}</ion-card-subtitle>
+      <ion-card-title>{{book.title}}. <br><h6>Special sale price &euro;{{book.price}}</h6></ion-card-title>
+    </ion-card-header>
+    <img  src="{{book.image}}"/>
+    <ion-card-content>  
+      {{book.description}}
+    </ion-card-content>
+    <ion-button shape="round" expand="block"  (click)="presentPrompt();"  >Buy now for &euro;{{book.price}}</ion-button>
+    <ion-button shape="round" expand="block"  (click)="share();"  >Share this offer on Whatsapp</ion-button>
+
+  </ion-card>
+</ion-content>
+<ion-footer>
+    <ion-toolbar >
+      <ion-title>
+      ©BookMart.inc
+      </ion-title>
+    </ion-toolbar>
+  </ion-footer>

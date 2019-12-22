@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      BookMart
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    <img src="/assets/home.jpg" alt=""/>
+    <ion-card-header>
+      <ion-card-subtitle>A paradise for readers..</ion-card-subtitle>
+      <ion-card-title>Welcome to BookMart</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        A perfect place to find all the famous books from numerous genre. <br> A one stop solution for a
+        bibliophile...
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-list-header>Find your Book</ion-list-header>
+  
+    <ion-item>
+      <ion-label>Author</ion-label>
+      <!--
+      <ion-select value="author" okText="Okay" cancelText="Dismiss" placeholder="Select One">
+       
+        <ion-select-option value="f">J.K.Rowling</ion-select-option>
+        <ion-select-option value="m">R.R.Martin</ion-select-option>
+      </ion-select>-->
+      <ion-select okText="Okay" cancelText="Dismiss" placeholder="Select One" #authorName (ionChange)="onAuthorNameChange(authorName.value);" >
+          <ion-select-option *ngFor="let option of uniqueAuthorNames" >
+            {{option}}
+          </ion-select-option>
+      </ion-select>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Genre</ion-label>
+     
+    <ion-select okText="Okay"  placeholder="Select One" #genre  >
+        <ion-select-option *ngFor="let option of uniqueGenreNames" >
+            {{option}}
+        </ion-select-option>
+    </ion-select>
+
+
+
+    </ion-item>
+  
+  </ion-list>
+
+  <ion-button expand="block" (click) ="onSearchBooks(authorName.value,genre.value);">
+      Search Books
+    </ion-button>
+
+
+  <ion-card *ngFor="let book of booksFiltered">
+    
+    <ion-card-header >
+      <ion-card-subtitle>{{book.author}}</ion-card-subtitle>
+      <ion-card-title>{{book.title}}</ion-card-title>
+    </ion-card-header>
+    <img  src="{{book.image}}"/>
+    <ion-card-content>  
+      {{book.description}}
+    </ion-card-content>
+    <ion-button shape="round" expand="block"  (click)="viewMore(book.id);"  >Buy Now</ion-button>
+  </ion-card>
+
+</ion-content>
+
+
+<ion-footer>
+  <ion-toolbar >
+    <ion-title>
+    ©BookMart.inc
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

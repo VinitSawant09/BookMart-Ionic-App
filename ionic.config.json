@@ -1,0 +1,7 @@
+{
+  "name": "BookMart",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

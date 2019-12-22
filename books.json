@@ -1,0 +1,105 @@
+{
+    "books": 
+    [
+        {
+        "id":"1",
+        "author": "J.K.Rowling",
+        "title": "Harry Potter & The Sorcerer's Stone",
+        "genre": "Fiction",
+        "price": "9",
+        "image":"assets/bookimg/hp1.jpg",
+        "description":"It follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry. Harry makes close friends and a few enemies during his first year at the school, and with the help of his friends, Harry faces an attempted comeback by the dark wizard Lord Voldemort, who killed Harry's parents, but failed to kill Harry when he was just 15 months old."
+        }, 
+        {
+        "id":"2",
+        "author": "George RR Martin",
+        "title": "Game of Thrones- Song of Ice and Fire",
+        "genre": "Fiction",
+        "price": "15",
+        "image":"assets/bookimg/icefire.jpg",
+        "description":"A Song of Ice and Fire takes place on the fictional continents Westeros and Essos. The point of view of each chapter in the story is a limited perspective of a range of characters growing from nine in the first novel, to 31 characters by the fifth novel. "
+        }, 
+        {
+        "id":"3",
+        "author": "James Patterson",
+        "title": "I Funny",
+        "genre": "Comedy",
+        "price": "5",
+        "image":"assets/bookimg/ifunny.jpg",
+        "description":"I Funny: A Middle School Story, simply known as I Funny, is a realistic fiction novel by James Patterson and Chris Grabenstein. It was published by Little, Brown and Company in 2012. It is followed by I Even Funnier (2013), I Totally Funniest (2015), I Funny TV (2016), I Funny: School of Laughs (2017) and The Nerdiest, Wimpiest, Dorkiest I Funny Ever (2018)"
+        }, 
+        {
+        "id":"4",
+        "author": "Dan Brown",
+        "title": "Origin",
+        "genre": "Fiction",
+        "price": "6",
+        "image":"assets/bookimg/origin.jpg",
+        "description":"Origin is a 2017 mystery thriller novel by American author Dan Brown[1] and the fifth installment in his Robert Langdon series, following Inferno. The book was released on October 3, 2017 by Doubleday.The book is predominantly set in Spain and features minor sections in Dubai and Budapest."
+
+        } ,
+        {
+            "id":"5",
+            "author": "James Patterson",
+            "title": "Max Einstein",
+            "genre": "Science Fiction",
+            "price": "8",
+            "image":"assets/bookimg/maxeinstein.jpg",
+            "description":"#1 New York Times Bestseller*What Harry Potter did for magic, Max Einstein does for kids' imaginations! #1 bestselling author James Patterson has written the first and only children's adventure novel officially approved by the Albert Einstein Archives."
+    
+        } ,
+        {
+            "id":"6",
+            "author": "Dan Brown",
+            "title": "Angels & Demons",
+            "genre": "Fiction",
+            "price": "4",
+            "image":"assets/bookimg/ad.jpg",
+            "description":"Angels & Demons is a 2000 bestselling mystery-thriller novel written by American author Dan Brown and published by Pocket Books and then by Corgi Books. The novel introduces the character Robert Langdon, who recurs as the protagonist of Brown's subsequent novels."
+    
+        } ,
+        {
+            "id":"7",
+            "author": "J.K.Rowling",
+            "title": "Harry Potter & The Chamber of Secrets",
+            "genre": "Fiction",
+            "price": "6",
+            "image":"assets/bookimg/hp2.jpg",
+            "description":"The plot follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, during which a series of messages on the walls of the school's corridors warn that the Chamber of Secrets has been opened and that the heir of Slytherin would kill all pupils who do not come from all-magical families. These threats are found after attacks that leave residents of the school petrified. Throughout the year, Harry and his friends Ron and Hermione investigate the attacks."
+    
+        } ,
+        {
+            "id":"8",
+            "author": "J.K.Rowling",
+            "title": "Harry Potter & The Prisoner of Azkaban",
+            "genre": "Fiction",
+            "price": "6",
+            "image":"assets/bookimg/hp3.jpg",
+            "description":"The book follows Harry Potter, a young wizard, in his third year at Hogwarts School of Witchcraft and Wizardry. Along with friends Ronald Weasley and Hermione Granger, Harry investigates Sirius Black, an escaped prisoner from Azkaban they believe is one of Lord Voldemort's old allies."
+    
+        } ,
+        {
+            "id":"9",
+            "author": "Dan Brown",
+            "title": "Deception Point",
+            "genre": "Fiction",
+            "price": "5",
+            "image":"assets/bookimg/dp.jpg",
+            "description":"Deception Point is a 2001 mystery-thriller novel by American author Dan Brown. It is Brown's third novel and, as of 2019, his second and latest outside of the Robert Langdon series. "
+    
+        } ,
+        {
+            "id":"10",
+            "author": "Rhonda Bryne",
+            "title": "The Power of Secret",
+            "genre": "Fiction",
+            "price": "3",
+            "image":"assets/bookimg/secret.jpg",
+            "description":"The Secret is a best-selling 2006 self-help book by Rhonda Byrne, based on the earlier film of the same name. It is based on the belief of the law of attraction, which claims that thoughts can change a person's life directly. "
+    
+        }       
+
+    ]
+
+	
+}
